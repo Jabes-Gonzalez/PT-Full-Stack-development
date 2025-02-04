@@ -1,0 +1,85 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: lightgrey;
+}
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin-top: 50px;
+}
+
+.whatever {
+    background-color: red;
+}
+
+.text {
+    background-color: blue;
+}
+
+.iwant {
+    background-color: yellow;
+}
+
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    background-color: lightgrey;
+    padding: 5px;
+}
+
+.Image-here img {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+    margin-top: 50px;
+}
+
+#second {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridFive {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: lightgrey;
+    margin-top: 50px;
+}
+
+#five-second {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#five-second img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 8px;
+}
+
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: lightgrey;
+    margin-top: 50px;
+}
+
+.paragraph {
+    font-family: "Great Vibes", serif;
+    font-weight: 600;
+}
